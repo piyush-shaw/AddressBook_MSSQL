@@ -27,3 +27,6 @@ SELECT * FROM AddressBook
 
 -- UC_4 - To edit existing contact using their name
 UPDATE AddressBook set phonenumber=9432143212 WHERE firstname='Piyush'
+
+-- UC_5 - To delete existing contact using their name
+DELETE from AddressBook WHERE firstname='Ashwani'
