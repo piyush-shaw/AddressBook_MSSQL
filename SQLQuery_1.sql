@@ -15,3 +15,12 @@ CREATE TABLE AddressBook(
     phonenumber bigint,
     email VARCHAR(300) not null
 )
+
+-- UC_3 - To insert values in table
+INSERT into AddressBook VALUES
+('Piyush','Shaw','13 MG Road','Kolkata','WestBengal',700304,09876543210,'piyush@gmail.com'),
+('Ashwani','Karma','18 Street Road','Raipur','Chattisgarh',408304,09809843210,'ashwani@gmail.com'),
+('Ankita','Singh','35 Camac Street Road','Howrah','WestBengal',700190,08765543210,'ankita@gmail.com'),
+('Ravi','Singh','67 Mango Road','Jamshedpur','Jharkhand',611304,09987657810,'ravi@gmail.com')
+-- To display table
+SELECT * FROM AddressBook
