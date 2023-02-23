@@ -52,3 +52,5 @@ update AddressBook set book_name='FamilyName',contact_type='Family' WHERE firstn
 -- Update value for type=profession
 update AddressBook set book_name='SoftwareDeveloper',contact_type='Profession' WHERE firstname='Piyush'
 
+-- UC_10 - To get number of contact person by type
+SELECT COUNT(*) as NumberofContact,contact_type from AddressBook GROUP BY contact_type
