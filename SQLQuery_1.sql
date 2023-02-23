@@ -24,3 +24,6 @@ INSERT into AddressBook VALUES
 ('Ravi','Singh','67 Mango Road','Jamshedpur','Jharkhand',611304,09987657810,'ravi@gmail.com')
 -- To display table
 SELECT * FROM AddressBook
+
+-- UC_4 - To edit existing contact using their name
+UPDATE AddressBook set phonenumber=9432143212 WHERE firstname='Piyush'
