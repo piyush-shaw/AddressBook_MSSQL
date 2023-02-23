@@ -37,3 +37,6 @@ SELECT * from AddressBook WHERE city='Howrah' or state='WestBengal'
 -- UC_7 - To retrieve count of addressbook by city or state
 SELECT COUNT(city) FROM AddressBook
 SELECT COUNT(state) FROM AddressBook
+
+-- UC_8 - To retrieve entries sorted alphabetically contact by name for a city
+SELECT * from AddressBook WHERE city='Howrah' ORDER By firstname
