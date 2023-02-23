@@ -33,3 +33,7 @@ DELETE from AddressBook WHERE firstname='Ashwani'
 
 -- UC_6 - To retrieve person detail using city or state 
 SELECT * from AddressBook WHERE city='Howrah' or state='WestBengal'
+
+-- UC_7 - To retrieve count of addressbook by city or state
+SELECT COUNT(city) FROM AddressBook
+SELECT COUNT(state) FROM AddressBook
