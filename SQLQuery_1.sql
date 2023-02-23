@@ -30,3 +30,6 @@ UPDATE AddressBook set phonenumber=9432143212 WHERE firstname='Piyush'
 
 -- UC_5 - To delete existing contact using their name
 DELETE from AddressBook WHERE firstname='Ashwani'
+
+-- UC_6 - To retrieve person detail using city or state 
+SELECT * from AddressBook WHERE city='Howrah' or state='WestBengal'
